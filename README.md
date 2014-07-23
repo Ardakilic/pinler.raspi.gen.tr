@@ -17,11 +17,11 @@ RewriteRule (.*)  pinout.html [QSA,L]
 
 Destek
 ======
-Bu sayfa altından bu projeye destek olabilirsiniz. Bu repoyu forklayıp, kendinizce geliştirip push request ile geliştirmenizi bana sunabilir, issues kısmında konuları tartışabilirsiniz. Raspberry Pi hakkındaki diğer tüm sorular için [Raspberry Pi Türkiye Soru Cevap Sitesi](http://sorucevap.raspi.gen.tr) adresine başvurun.
+Bu sayfa altından bu projeye destek olabilirsiniz. Bu repoyu forklayıp, kendinizce geliştirip push request ile geliştirmenizi bana sunabilir, issues kısmında konuları tartışabilirsiniz. Raspberry Pi hakkındaki diğer tüm sorular için [Raspberry Pi Türkiye Soru Cevap Sitesi](http://sorucevap.raspi.gen.tr)ne başvurun.
 
 Lisans
 ======
-Bu mikro site Creative Commons 3.0 Attribution lisansı ile lisanslanmıştır.
+Bu mikrosite Creative Commons 3.0 Attribution lisansı ile lisanslanmıştır.
 
 https://creativecommons.org/licenses/by/3.0/
 

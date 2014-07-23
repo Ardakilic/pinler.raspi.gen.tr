@@ -249,5 +249,5 @@ span.alternate {display:none;}
 ol.linenums {margin-left:30px;}
 
 /*Arda*/
-footer.footer{position: absolute; bottom:10px;}
+footer.footer{clear:both;padding-top: 50px;width: 100%;text-align: center;}
 footer.footer p a {color:#859900;text-decoration:underline;}

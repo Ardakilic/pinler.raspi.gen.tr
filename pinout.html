@@ -303,7 +303,7 @@ io.digital_write(9,HIGH)</pre>
 					<p>Bu pin, bir önceki <a href="/pin2_5v_power"><i class="icon-bolt"></i>5v güç pini</a> ile tamamen aynı. Projenizin yoğunluğuna göre bir tane 5v akım pini yetmezse bu pini de kullanabilirsiniz.</p>
 				</article>
 				<article><h2>Ground</h2>
-					<p>Revizyon 2 Raspberry Pi'de tüm "bağlayamayın" (do-not-connect) pinleri ek ground (0v) pinleri olarak değişti. Buralara pin bağlarken dikkatli olun, çünkü doğrudan bir çıkışı bu pinlere bağlamak cihazınıza</p>
+					<p>Revizyon 2 Raspberry Pi'de tüm "bağlayamayın" (do-not-connect) pinleri ek ground (0v) pinleri olarak değişti. Buralara pin bağlarken dikkatli olun, çünkü doğrudan bir çıkışı bu pinlere bağlamak cihazınıza zarar verebilir.</p>
 				</article>
 				<article>
 					<h2>GPIO 14 (TXD)</h2>
@@ -593,14 +593,16 @@ wiringpi.softToneWrite(7,1)
 				</article>
 			</div>
 		</div>
-			<!-- Arda -->
-			<footer class="footer">
-				<p>Bu pinler Gatgetoid tarafından <a href="https://github.com/Gadgetoid/Pinout" target="_blank">hazırlanmış</a> olup <a href="https://creativecommons.org/licenses/by/3.0" target="_blank">Creative Commons 3.0 Attribution lisansı</a> ile lisanslanmıştır.</p>
-				<p>Türkçeleştirme: <a target="blank" href="http://arda.pw">Arda Kılıçdağı</a>.</p>
-				<p><a href="https://github.com/Ardakilic/pinler.raspi.gen.tr" target="_blank">Projenin GitHub sayfası</a>'ndan kodları inceleyebilir, fikir ve önerilerinizi sunabilir, geliştirmede katkıda bulunabilirsiniz.</p>
-				<p align="center"><a href="http://raspi.gen.tr">Siteye Geri Dön</a></p>
-			</footer>
 		</div>
+
+		<!-- Arda -->
+		<footer class="footer">
+			<p>Bu pinler Gatgetoid tarafından <a href="https://github.com/Gadgetoid/Pinout" target="_blank">hazırlanmış</a> olup <a href="https://creativecommons.org/licenses/by/3.0" target="_blank">Creative Commons 3.0 Attribution lisansı</a> ile lisanslanmıştır.</p>
+			<p>Türkçeleştirme: <a target="blank" href="http://arda.pw">Arda Kılıçdağı</a>.</p>
+			<p><a href="https://github.com/Ardakilic/pinler.raspi.gen.tr" target="_blank">Projenin GitHub sayfası</a>'ndan kodları inceleyebilir, fikir ve önerilerinizi sunabilir, geliştirmede katkıda bulunabilirsiniz.</p>
+			<p align="center"><a href="http://raspi.gen.tr">Siteye Geri Dön</a></p>
+		</footer>
+
 		<script type="text/javascript" src="//cdn.jsdelivr.net/jquery/1.9.1/jquery-1.9.1.min.js"></script>
 		<script type="text/javascript" src="//cdn.jsdelivr.net/cycle/2.9999.81/jquery.cycle.all.js"></script>
 		<script type="text/javascript" src="//cdn.jsdelivr.net/prettify/0.1/prettify.js"></script>
