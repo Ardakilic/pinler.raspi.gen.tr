@@ -17,7 +17,7 @@ RewriteRule (.*)  pinout.html [QSA,L]
 
 Destek
 ======
-Bu sayfa altından bu projeye destek olabilirsiniz. Bu repoyu forklayıp, kendinizce geliştirip push request ile geliştirmenizi bana sunabilir, issues kısmında konuları tartışabilirsiniz. Raspberry Pi hakkındaki diğer tüm sorular için [Raspberry Pi Türkiye Soru Cevap Sitesi](http://sorucevap.raspi.gen.tr)ne başvurun.
+Bu sayfa altından bu projeye destek olabilirsiniz. Bu repoyu forklayıp, kendinizce geliştirip push request ile geliştirmenizi bana sunabilir, issues kısmında konuları tartışabilirsiniz. Raspberry Pi hakkındaki diğer tüm sorular için [Raspberry Pi Türkiye Forumlarına](http://forum.raspi.gen.tr)ne başvurun.
 
 Lisans
 ======
