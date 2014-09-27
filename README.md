@@ -19,9 +19,10 @@ Nginx'de de şuna benzer bir özel ayar iş görecektir:
 
 
 ```
-location ~ (\.png|\.css|\.js)$ {
+try_files = $uri @missing;
+location @missing {
+    rewrite ^ /pinout.html;
 }
-rewrite ^(.*)$ /pinout.html;
 ```
 
 Destek
