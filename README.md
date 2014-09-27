@@ -21,9 +21,10 @@ Nginx'de de şuna benzer bir özel ayar iş görecektir:
 ```
 location /prettify {
 }
-try_files = $uri @missing;
-location @missing {
-    rewrite ^ /pinout.html;
+location ~ (\.png|\.css|\.js)$ {
+}
+location / {
+rewrite ^(.*)$ /pinout.html break;
 }
 ```
 
