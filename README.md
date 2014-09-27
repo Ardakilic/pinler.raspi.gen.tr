@@ -20,8 +20,8 @@ Nginx'de de şuna benzer bir özel ayar iş görecektir:
 
 ```
 location ~ (\.png|\.css|\.js)$ {
-	rewrite ^(.*)$ /pinout.html break;
 }
+rewrite ^(.*)$ /pinout.html;
 ```
 
 Destek
