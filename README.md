@@ -15,9 +15,18 @@ RewriteCond %{REQUEST_URI}  !(\.png|\.css|\.js)$
 RewriteRule (.*)  pinout.html [QSA,L]
 ```
 
+Nginx'de de şuna benzer bir özel ayar iş görecektir:
+
+
+```
+location ~ (\.png|\.css|\.js)$ {
+	rewrite ^(.*)$ /pinout.html break;
+}
+```
+
 Destek
 ======
-Bu sayfa altından bu projeye destek olabilirsiniz. Bu repoyu forklayıp, kendinizce geliştirip push request ile geliştirmenizi bana sunabilir, issues kısmında konuları tartışabilirsiniz. Raspberry Pi hakkındaki diğer tüm sorular için [Raspberry Pi Türkiye Forumlarına](http://forum.raspi.gen.tr)ne başvurun.
+Bu sayfa altından bu projeye destek olabilirsiniz. Bu repoyu forklayıp, kendinizce geliştirip push request ile geliştirmenizi bana sunabilir, issues kısmında konuları tartışabilirsiniz. Raspberry Pi hakkındaki diğer tüm sorular için [Raspberry Pi Türkiye Forumları](http://forum.raspi.gen.tr)na başvurun.
 
 Lisans
 ======
