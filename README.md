@@ -19,12 +19,8 @@ Nginx'de de şuna benzer bir özel ayar iş görecektir:
 
 
 ```
-location /prettify {
-}
-location ~ (\.png|\.css|\.js)$ {
-}
-location / {
-rewrite ^(.*)$ /pinout.html break;
+if ($request_filename !~* \.(png|css|js)$ ) {
+  rewrite ^(.*)$ /pinout.html; 
 }
 ```
 
